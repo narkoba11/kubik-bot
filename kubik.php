@@ -32,7 +32,7 @@ for ($x=0; $x <1; $x++) {
 			}
 		}
 		$artikel = array_unique($artikel);
-		echo "[+] Mengambil data artikel (CID : ".$cid.") ==> ".count(array_unique($artikel))."\r\n";
+		echo "[+] nyolong (Shiodine Walker : ".$cid.") ==> ".count(array_unique($artikel))."\r\n";
 	}
 	while (TRUE) {
 		$timeIn30Minutes = time() + 30*60;
