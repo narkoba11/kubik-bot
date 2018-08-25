@@ -10,9 +10,9 @@ require_once("sdata-modules.php");
 ##############################################################################################################
 $config['deviceCode'] 		= '865249032387158';
 $config['tk'] 				= 'ACEQ2Unw22lPpKsTmVPNQxedpubW-n1EiKVxdHRodw';
-$config['token'] 			= '3ca1JjnYFS7Pk4omlxTWgjsQpDvhFuPSvvtsEEhQ1GgQuoyerBzBAMsODvo2pF-NJCPBT9dTAl4tyaQ';
-$config['uuid'] 			= '7a46c7772cef49d2a2e6a281d99b64b5';
-$config['sign'] 			= 'e7e4cc03cd694a19a5a296e56d7caf1b';
+$config['token'] 			= '33c0zyoiI4Bm6FQ9_-le5Ycx_3HTfE1XViWW310e7oZSaMZ7Vvu2P41hu6D88oYMHfYRgmAAqEjqJcU';
+$config['uuid'] 			= 'feed4b8710404780aa2bec5203136acb';
+$config['sign'] 			= '06865e3825699bed9d99550d67c172d8';
 $config['android_id'] 		= '45f5b456e5f95979';
 ##############################################################################################################
 for ($x=0; $x <1; $x++) { 
