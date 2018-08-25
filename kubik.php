@@ -49,7 +49,7 @@ for ($x=0; $x <1; $x++) {
 		unset($url);unset($header);
 		foreach ($respons as $key => $value) {
 			$rjson = json_decode($value[respons],true);
-			echo "[+][".$id." (Live : ".count($artikel).")] Message : ".$rjson['message']." | Poin : ".$rjson['data']['amount']." | Read Second : ".$rjson['data']['current_read_second']."\r\n";
+			echo "[+][".$id." (Maling : ".count($artikel).")] Pesan : ".$rjson['Pesan']." | Poin : ".$rjson['data']['amount']." | Baca Kedua : ".$rjson['data']['current_read_second']."\r\n";
 			if($rjson[code] == '-20003' || $rjson['data']['current_read_second'] == '330' || $rjson['data']['amount'] == 0){
 				unset($artikel[$value[data][note]]);
 			}
