@@ -24,4 +24,4 @@ $sign = "71a16f68a682f2d1f9abf8634290db1d";
 #| jika skrip di aktifkan maka hapus data di atas 
 #|#####################################################
 #| hapus pagar di bawah untuk mengaktifkan skrip
-include(readline("masukan config: "));
+# include(readline("masukan config: "));
